@@ -11,8 +11,8 @@ module.exports = {
         }
 
         const user = new User ({
-          name: req.body.name,
-          lastname: req.body.lastname,
+          firstName: req.body.name,
+          lastName: req.body.lastname,
           email: req.body.email,
           password: req.body.password,
           role: req.body.role
